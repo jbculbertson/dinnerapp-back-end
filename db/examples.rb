@@ -17,3 +17,14 @@
 #                password: 'abc123',
 #                password_confirmation: nil)
 # end
+
+require 'csv'
+
+Recipe.transaction do
+  CSV.foreach(Rails.root + 'lib/seeds/seed_recipes.csv',
+              headers: true,
+              header_converters: -> (h) { h.downcase.to_sym }) do |recipe_row|
+    recipe = recipe_row.to_hash
+    Recipe.create recipe unless Recipe.exists? recipe
+  end
+end
