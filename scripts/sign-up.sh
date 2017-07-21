@@ -1,5 +1,9 @@
 #!/bin/bash
 
+EMAIL='pop@pop'
+PASSWORD='pop'
+
+
 API="${API_ORIGIN:-http://localhost:4741}"
 URL_PATH="/sign-up"
 curl "${API}${URL_PATH}" \
