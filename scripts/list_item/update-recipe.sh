@@ -1,8 +1,17 @@
-TOKEN=BAhJIiVhYTAwMTk2YmYzZWYzMDI4ODFjMGU1ZWYzMGZmZmE5ZAY6BkVG--ef47a37c64dd1b2b474077549df0a3fc45886cdc
-NAME='TEST'
-INGREDIENT1='TEST'
+TOKEN=BAhJIiVjN2NkMzMzNzkxMGMzNWVhMTdkNGM2MzMzZDAxODk0MQY6BkVG--7f66023899d5f543b49ceabd9390b3c42b2b7d8e
+ID=7
+NAME='Pizza'
+INGREDIENT1='Dough'
+INGREDIENT2='Sauce'
+INGREDIENT3='Cheese'
+INGREDIENT4='Peppers'
+INGREDIENT5='Onions'
+INGREDIENT6='Anchovies?'
+INGREDIENT7='Did I add??'
 
-curl --include --request POST http://localhost:4741/recipes/ \
+
+
+curl --include --request PATCH http://localhost:4741/recipes/${ID} \
  --header "Content-Type: application/json" \
  --header "Authorization: Token token=${TOKEN}" \
  --data '{
