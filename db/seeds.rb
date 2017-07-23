@@ -11,6 +11,9 @@
 
 User.create(email: 'jeff@jeff', password:'jeff', password_confirmation: 'jeff')
 
+ListItem.create(item: 'Pizza', user_id: 1)
+ListItem.create(item: 'Beer', user_id: 1)
+ListItem.create(item: 'Chips', user_id: 1)
 Recipe.create(user_id: 1, on_menu: false, name: 'Sweet Potato Tacos', ingredient1: 'Tortillas', ingredient2:'Sweet Potatoes', ingredient3: 'Black Beans', ingredient4:  'Hot Sauce', ingredient5:'Tomatoes', ingredient6: 'Mango', ingredient7: 'Cilantro', ingredient8: 'Onion', ingredient9:'Jalapenos', ingredient10: 'Avocado')
 
 Recipe.create(user_id: 1, on_menu: false, name: 'Broccoli Pasta with Butter Beans', ingredient1: 'Broccoli', ingredient2:'Pasta', ingredient3: 'Butter Beans', ingredient4: 'Lemon')
