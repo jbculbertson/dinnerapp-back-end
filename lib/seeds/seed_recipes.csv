@@ -1,8 +1,8 @@
-name,ingredient1,ingredient2,ingredient3,ingredient4,ingredient5,ingredient6,ingredient7,ingredient8,ingredient9,ingredient10
-Pizza,Dough,Sauce,Peppers,Onions,Cheese,Sausage,
-Burgers,Gound beef,Onion,Cheese,Buns,Tomato,Jalapeno,
-Tacos,Tortillas,Meat,Cheese,Lettuce,Tomato,Onion,Avocado,
-Salad,Lettuce,Spinach,Carrot,Tomato,Cucumber,Chicken,
-Rice and beans,Black beans,Rice,Cheese,Hot sauce,
-Pasta,Noodles,Tomato sauce,Parmesan Cheese,Peppers,Onions,
-Veggie Wrap,Large tortilla,Salad,Carrot,Avocado,Hummus,Peppers,Chickpeas,
+name,ingredient1,ingredient2,ingredient3,ingredient4,ingredient5,ingredient6,ingredient7,ingredient8,ingredient9,ingredient10 ;
+Pizza,Dough,Sauce,Peppers,Onions,Cheese,Sausage,nil,nil,nil, ;
+Burgers,Gound beef,Onion,Cheese,Buns,Tomato,Jalapeno,nil,nil,nil, ;
+Tacos,Tortillas,Meat,Cheese,Lettuce,Tomato,Onion,Avocado,nil,nil, ;
+Salad,Lettuce,Spinach,Carrot,Tomato,Cucumber,Chicken,nil,nil,nil, ;
+Rice and beans,Black beans,Rice,Cheese,Hot sauce,nil,nil,nil,nil,nil, ;
+Pasta,Noodles,Tomato sauce,Parmesan Cheese,Peppers,Onions,nil,nil,nil,nil, ;
+Veggie Wrap,Large tortilla,Salad,Carrot,Avocado,Hummus,Peppers,Chickpeas,nil,nil, ;
